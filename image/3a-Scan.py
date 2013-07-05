@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im = cv.LoadImageM("img/alkaline.jpg")
+im = cv.LoadImageM("../img/alkaline.jpg")
 
 #Access a specific pixel
 print im[3,3]

@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im=cv.LoadImage('img/build.png', cv.CV_LOAD_IMAGE_GRAYSCALE)
+im=cv.LoadImage('../img/build.png', cv.CV_LOAD_IMAGE_GRAYSCALE)
 
 sobx = cv.CreateImage(cv.GetSize(im), cv.IPL_DEPTH_16S, 1)
 cv.Sobel(im, sobx, 1, 0, 3) #Sobel with x-order=1

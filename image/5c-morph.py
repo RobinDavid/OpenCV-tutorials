@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-image=cv.LoadImage('img/build.png', cv.CV_LOAD_IMAGE_GRAYSCALE)
+image=cv.LoadImage('../img/build.png', cv.CV_LOAD_IMAGE_GRAYSCALE)
 
 #Get edges
 morphed = cv.CloneImage(image)

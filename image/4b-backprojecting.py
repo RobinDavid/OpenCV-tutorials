@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im = cv.LoadImage("img/lena.jpg", cv.CV_8U)
+im = cv.LoadImage("../img/lena.jpg", cv.CV_8U)
 
 cv.SetImageROI(im, (1, 1,30,30))
 
@@ -29,7 +29,7 @@ cv.ShowImage("BackProjected", res)
 
 '''
 # For colored pictures !
-im = cv.LoadImage("img/lena.jpg")
+im = cv.LoadImage("../img/lena.jpg")
 
 r = cv.CreateImage(cv.GetSize(im), 8, cv.CV_8UC1)
 g = cv.CreateImage(cv.GetSize(im), 8, cv.CV_8UC1)

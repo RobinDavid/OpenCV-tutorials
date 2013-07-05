@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-image=cv.LoadImage('img/alkaline.jpg', cv.CV_LOAD_IMAGE_COLOR)
+image=cv.LoadImage('../img/alkaline.jpg', cv.CV_LOAD_IMAGE_COLOR)
 
 #Load the haar cascade
 hc = cv.Load("../haarcascades/haarcascade_frontalface_alt.xml")

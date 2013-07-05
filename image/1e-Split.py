@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-orig = cv.LoadImage('img/fruits.jpg')
+orig = cv.LoadImage('../img/fruits.jpg')
 
 b = cv.CreateImage(cv.GetSize(orig), orig.depth, 1)
 g = cv.CloneImage(b)

@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im = cv.LoadImageM("img/fruits.jpg",cv.CV_32F)
+im = cv.LoadImageM("../img/fruits.jpg",cv.CV_32F)
 
 def getDistance(pixel,refcolor):
     return abs( (pixel[0]-refcolor[0]) + (pixel[1]-refcolor[1]) + (pixel[2]-refcolor[2]) )
