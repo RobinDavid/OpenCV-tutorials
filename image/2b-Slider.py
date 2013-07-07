@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im = cv.LoadImage("img/lena.jpg", cv.CV_LOAD_IMAGE_GRAYSCALE)
+im = cv.LoadImage("../img/lena.jpg", cv.CV_LOAD_IMAGE_GRAYSCALE)
 thresholded = cv.CreateImage(cv.GetSize(im), 8, 1)
 
 def onChange(val):

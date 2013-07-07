@@ -2,7 +2,7 @@ import cv2.cv as cv#or simply import cv
 
 import random
 
-im = cv.LoadImage("img/lena.jpg") #or LoadImage and access pixel with Get2D/Set2D
+im = cv.LoadImage("../img/lena.jpg") #or LoadImage and access pixel with Get2D/Set2D
 
 for k in range(5000): #Create 5000 noisy pixels
     i = random.randint(0,im.height-1)

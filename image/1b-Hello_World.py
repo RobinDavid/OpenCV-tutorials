@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-image=cv.LoadImage('img/lena.jpg', cv.CV_LOAD_IMAGE_COLOR) #Load the image
+image=cv.LoadImage('../img/lena.jpg', cv.CV_LOAD_IMAGE_COLOR) #Load the image
 
 font = cv.InitFont(cv.CV_FONT_HERSHEY_SIMPLEX, 1, 1, 0, 3, 8) #Creates a font
 

@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-orig = cv.LoadImage("img/image.png")
+orig = cv.LoadImage("../img/road.png")
 im = cv.CreateMat(orig.height / 5, orig.width / 5, cv.CV_8UC3)
 cv.Resize(orig,im) #resize the original image
 
@@ -37,7 +37,7 @@ cv.CalcHist([cv.GetImage(i) for i in planes], hist)
 #SetHistogramm ???
 #Normalize
 
-im2 = cv.LoadImage("img/build.png")
+im2 = cv.LoadImage("../img/build.png")
 hsv2 = cv.CreateImage(cv.GetSize(im2), 8, 3)
 cv.CvtColor(im2, hsv2, cv.CV_BGR2HSV)
 h_plane2 = cv.CreateImage(cv.GetSize(im2), 8, 1)

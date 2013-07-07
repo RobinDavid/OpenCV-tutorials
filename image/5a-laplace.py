@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im=cv.LoadImage('img/build.png', cv.CV_LOAD_IMAGE_COLOR)
+im=cv.LoadImage('../img/build.png', cv.CV_LOAD_IMAGE_COLOR)
 
 # Laplace on a gray scale picture
 gray = cv.CreateImage(cv.GetSize(im), 8, 1)

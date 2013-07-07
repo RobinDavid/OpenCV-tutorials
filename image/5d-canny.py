@@ -1,7 +1,7 @@
 import cv2.cv as cv
 import math
 
-im=cv.LoadImage('img/road.png', cv.CV_LOAD_IMAGE_GRAYSCALE)
+im=cv.LoadImage('../img/road.png', cv.CV_LOAD_IMAGE_GRAYSCALE)
 
 pi = math.pi #Pi value
 

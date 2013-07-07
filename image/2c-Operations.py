@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im = cv.LoadImage("img/lena.jpg",3)
+im = cv.LoadImage("../img/lena.jpg",3)
 
 cv.SetImageROI(im, (50,50,150,150))
 

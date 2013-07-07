@@ -1,7 +1,7 @@
 import cv2.cv as cv#or simply import cv
 
-im = cv.LoadImage("img/lena.jpg")
-im2 = cv.LoadImage("img/fruits-larger.jpg")
+im = cv.LoadImage("../img/lena.jpg")
+im2 = cv.LoadImage("../img/fruits-larger.jpg")
 cv.ShowImage("Image1", im)
 cv.ShowImage("Image2", im2)
 

@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-orig = cv.LoadImage('img/build.png', cv.CV_LOAD_IMAGE_COLOR)
+orig = cv.LoadImage('../img/build.png', cv.CV_LOAD_IMAGE_COLOR)
 im = cv.CreateImage(cv.GetSize(orig), 8, 1)
 cv.CvtColor(orig, im, cv.CV_BGR2GRAY)
 #Keep the original in colour to draw contours in the end

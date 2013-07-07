@@ -1,7 +1,7 @@
 import cv2.cv as cv
 
 
-image = cv.LoadImageM("img/lena.jpg", cv.CV_LOAD_IMAGE_COLOR)
+image = cv.LoadImageM("../img/lena.jpg", cv.CV_LOAD_IMAGE_COLOR)
 tmp1 = cv.CreateMat(1, 13 * 5, cv.CV_64FC1)
 tmp2 = cv.CreateMat(1, 13 * 5, cv.CV_64FC1)
 mask = cv.CreateMat(image.rows, image.cols, cv.CV_8UC1)

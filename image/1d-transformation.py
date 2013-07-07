@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-im=cv.LoadImage('img/fruits.jpg',cv.CV_LOAD_IMAGE_COLOR)
+im=cv.LoadImage('../img/fruits.jpg',cv.CV_LOAD_IMAGE_COLOR)
 
 res = cv.CreateImage(cv.GetSize(im), cv.CV_8UC2, 3) #cv.CV_32F, cv.IPL_DEPTH_16S, ...
 cv.Convert(im, res)

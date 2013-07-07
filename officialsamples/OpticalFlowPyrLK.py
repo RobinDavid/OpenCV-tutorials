@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # first, create the necessary windows
     cv.NamedWindow ('LkDemo', cv.CV_WINDOW_AUTOSIZE)
 
-    frame = cv.LoadImage("../img/building.png")
+    frame = cv.LoadImage("../img/build.png")
 
     image = cv.CreateImage (cv.GetSize (frame), 8, 3)
     image.origin = frame.origin

@@ -1,6 +1,6 @@
 import cv2.cv as cv
 
-image=cv.LoadImage('img/lena.jpg', cv.CV_LOAD_IMAGE_COLOR) #Load the image
+image=cv.LoadImage('../img/lena.jpg', cv.CV_LOAD_IMAGE_COLOR) #Load the image
 cv.ShowImage("Original", image)
 
 grey = cv.CreateImage((image.width ,image.height),8,1) #8depth, 1 channel so grayscale
